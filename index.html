@@ -17,15 +17,15 @@
 					<td><input type="button" value="7" onclick="retornar(value)"></td>		
 					<td><input type="button" value="8" onclick="retornar(value)"></td>
 					<td><input type="button" value="9" onclick="retornar(value)"></td>
-					<td><input type="button" value="+"></td>
-					<td><input type="button" value="-"></td>
+					<td><input type="button" value="+" onclick="calcular(value)"></td>
+					<td><input type="button" value="-" onclick="calcular(value)"></td>
 				</tr>
 				<tr>
 					<td><input type="button" value="4" onclick="retornar(value)"></td>			
 					<td><input type="button" value="5" onclick="retornar(value)"></td>
 					<td><input type="button" value="6" onclick="retornar(value)"></td>
-					<td><input type="button" value="*"></td>
-					<td><input type="button" value="/"></td>
+					<td><input type="button" value="*" onclick="calcular(value)"></td>
+					<td><input type="button" value="/" onclick="calcular(value)"></td>
 				</tr>
 
 				<tr>
@@ -33,12 +33,12 @@
 					<td><input type="button" value="2" onclick="retornar(value)"></td>
 					<td><input type="button" value="3" onclick="retornar(value)"></td>
 					<td><input type="button" value="<-" onclick="eliminarUltimo()"></td>
-					<td><input type="button" value="C"></td>
+					<td><input type="button" value="C" onclick="borrarPantalla()"></td>
 				</tr>
 				<tr>
 					<td colspan="2"><input type="button" value="0" onclick="retornar(value)"></td>
 					<td></td>
-					<td colspan="2"><input type="button" value="="></td>
+					<td colspan="2"><input type="button" value="=" onclick="resultado()"></td>
 				</tr>
 			</table>
 			</form>
